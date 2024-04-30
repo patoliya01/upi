@@ -1,4 +1,3 @@
 [build]
-command = "echo 'No build steps needed'"
-publish = "public"
-command = "composer install && php your_build_script.php"
+  command = "composer install && php index.php"
+  publish = "public"
